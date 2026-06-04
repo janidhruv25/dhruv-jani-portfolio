@@ -10,7 +10,7 @@ const education = [
     institution: "G. H. Patel College of Engineering & Technology",
     location: "Anand, Gujarat",
     period: "2022 — 2026",
-    cgpa: "9.57 / 10",
+    cgpa: "9.3 / 10",
     type: "main"
   },
   {
