@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
-import { motion, useInView, useAnimation } from "framer-motion";
+import { motion, useInView, useAnimation, Easing } from "framer-motion";
 import styles from "./Contact.module.css";
 
 export default function Contact() {
@@ -35,7 +35,7 @@ export default function Contact() {
     visible: {
       y: 0,
       opacity: 1,
-      transition: { duration: 0.5, ease: "easeOut" },
+      transition: { duration: 0.5, ease: "easeOut" as Easing},
     },
   };
 
