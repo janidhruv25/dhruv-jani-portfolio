@@ -1,0 +1,130 @@
+/* Footer Section */
+.footer {
+  background: linear-gradient(135deg, #f8fafc 0%, #f0f4f8 100%);
+  padding: 4rem 0 2rem 0;
+  margin-top: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Container */
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+/* Name Section */
+.nameSection {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.firstName,
+.lastName {
+  font-size: 3.5rem;  /* Even smaller */
+  font-weight: 600;    /* Less bold = narrower appearance */
+  color: #9ca3af;
+  letter-spacing: -0.04em;  /* Tighter letter spacing */
+  line-height: 1.1;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .firstName,
+  .lastName {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .firstName,
+  .lastName {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .firstName,
+  .lastName {
+    font-size: 5rem;
+  }
+}
+
+/* Full Width Horizontal Line */
+.fullWidthDivider {
+  width: 100%;
+  height: 1px;
+  background: #e5e7eb;
+  margin: 1rem 0 1.5rem 0;
+}
+
+/* Bottom Row */
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+/* Social Links */
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialLink {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #9ca3af;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.socialLink:hover {
+  color: #0066FF;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .footer {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .firstName,
+  .lastName {
+    font-size: 2rem;  /* Reduced from 2.5rem */
+    letter-spacing: -0.02em;
+  }
+  
+  .bottomRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .socialLinks {
+    gap: 1rem;
+  }
+  
+  .socialLink {
+    font-size: 0.7rem;
+  }
+}
