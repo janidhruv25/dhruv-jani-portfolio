@@ -7,6 +7,21 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dhruv Jani — Embedded Systems & PCB Engineer",
   description: "Designing intelligent embedded systems, custom PCBs, robotics platforms, and AI-powered edge solutions.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.png",
+        sizes: "any",
+        type: "image/png",
+      },
+    ],
+    shortcut: "/favicon.png",
+    apple: {
+      url: "/favicon.png",
+      sizes: "180x180",
+      type: "image/png",
+    },
+  },
 };
 
 export default function RootLayout({
